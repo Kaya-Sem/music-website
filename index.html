@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Da vibe</title>
     <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-family: Arial, sans-serif;
+            font-family: 'Press Start 2P', sans-serif;
+            font-weight:400;
+            background-color: #ae34ef; /* Set your desired background color here */
+            margin: 0;
+            padding: 0;
+            color: white; /* Optional: Change text color for contrast */
+        }
+h1 {
+            font-family: 'Lobster Two', cursive; /* Ensure Lobster Two is applied to h1 */
+            font-weight: 700; /* Regular weight */
         }
         .container {
             display: flex;
             justify-content: space-between;
             width: 80%; /* Set the width of the main container */
-            margin: 20px 0;
+            margin: 0px 0;
         }
         .spotify-embeds {
             flex: 1; /* Allow the embeds to take up available space */
@@ -25,7 +35,7 @@
         .gif-container {
             display: flex;
             flex-direction: column; /* Stack GIFs vertically */
-            gap: 10px; /* Space between GIFs */
+            gap: 0px; /* Space between GIFs */
             flex: 0; /* Allow the GIFs to take up available space */
         }
         .gif-container img {
