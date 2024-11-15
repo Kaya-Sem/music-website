@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𓂸</title>
+    <title>Spinning ASCII Cube</title>
     <style>
         body {
             font-family: monospace;
@@ -24,10 +24,10 @@
     </style>
 </head>
 <body>
-    <pre id="child-head-kicker-9000"></pre>
+    <pre id="ascii-cube"></pre>
 
     <script>
-        const pre = document.getElementById("child-head-kicker-9000");
+        const pre = document.getElementById("ascii-cube");
         let angleX = 0;
         let angleY = 0;
 
@@ -60,15 +60,15 @@
         }
 
         function project([x, y, z]) {
-    const distance = 4;
-    const factor = 25 / (distance - z);  
-    const x2D = Math.round(factor * x + 60); 
-    const y2D = Math.round(factor * y + 13);
-    return [x2D, y2D];
-}
+            const distance = 4;
+            const factor = 15 / (distance - z);  // Adjusted scale factor for better fit
+            const x2D = Math.round(factor * x + 40); // Adjusted x position for centering
+            const y2D = Math.round(factor * y + 12); // Adjusted y position for centering
+            return [x2D, y2D];
+        }
 
         function drawCube() {
-            const screen = Array.from({ length: 70 }, () => Array(120).fill(" "));
+            const screen = Array.from({ length: 25 }, () => Array(80).fill(" "));
             const projectedPoints = cubePoints.map(point => project(rotate(point, angleX, angleY)));
 
             edges.forEach(([start, end]) => {
@@ -89,7 +89,7 @@
 
             while (true) {
                 if (x1 >= 0 && x1 < 80 && y1 >= 0 && y1 < 25) {
-                    screen[y1][x1] = "!";
+                    screen[y1][x1] = "#";
                 }
                 if (x1 === x2 && y1 === y2) break;
                 const e2 = 2 * err;
@@ -102,9 +102,7 @@
             angleX += 0.03;
             angleY += 0.02;
             drawCube();
-    setTimeout(() => {
-        requestAnimationFrame(animate);
-    }, 50);
+            requestAnimationFrame(animate);
         }
 
         animate();
