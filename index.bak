@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da vibe</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Press Start 2P', sans-serif;
+            font-weight:400;
+            background-color: #ae34ef; /* Set your desired background color here */
+            margin: 0;
+            padding: 0;
+            color: white; /* Optional: Change text color for contrast */
+        }
+h1 {
+            font-family: 'Lobster Two', cursive; /* Ensure Lobster Two is applied to h1 */
+            font-weight: 700; /* Regular weight */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%; /* Set the width of the main container */
+            margin: 0px 0;
+        }
+        .spotify-embeds {
+            flex: 1; /* Allow the embeds to take up available space */
+            margin: 0 20px; /* Space between embeds and GIFs */
+        }
+        .gif-container {
+            display: flex;
+            flex-direction: column; /* Stack GIFs vertically */
+            gap: 0px; /* Space between GIFs */
+            flex: 0; /* Allow the GIFs to take up available space */
+        }
+        .gif-container img {
+            width: 300px; /* Set the desired width for GIFs */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Da vibe</h1>
+
+    <div class="container">
+        <div class="gif-container">
+            <img
+                    src="https://media1.tenor.com/m/QZnjS8aj5b4AAAAd/dire-straits-mtv.gif"
+                    alt="dire straits">
+            <img src="https://media1.tenor.com/m/aqNxzTht6IAAAAAC/cat-fire.gif" alt="burning cat">
+            <img src="https://media1.tenor.com/m/pjd_Qi7uUhUAAAAC/kiss.gif" alt="aphex twin">
+            <img src="https://media1.tenor.com/m/JLxHN8AfAtQAAAAd/this-is-elon-musk-elon-musk.gif" alt="elon">
+
+            <img src="https://media1.tenor.com/m/u_Nd3G6LsRwAAAAd/porter-robinson-second-sky.gif"
+                    alt="porter_robinson">
+        </div>
+
+        <div class="spotify-embeds">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5WbiNJnDjXQTZtICDiXZOL?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4YqtZDSfG3M2dWgjxFtheS?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0FlYCmQM5q3TcdvwRT53Tt?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3YVTmWQvPWVSktD0DhtSYQ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7oxwoJU5oL2POBRMoSk8OF?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0SFcum0dFGUounUdU4vro5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Shadow man -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0J92uIMvex4Fzpy6YI43vf?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Biwak -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Zjux9Q3Xxi53QFrw4XHIc?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Dynamite Derby-->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1yVOYqVBvYPHODeKzzkvUr?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Urine burn-->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/49vGY3T1xWAOCT2t7HRigJ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/781V2Y5LPtcpgONEOadadE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Edamame -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1golLrmqyxDWedF7YUHCOD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Leaving -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6roDRQeReRp68LOXjbaLS2?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="gif-container">
+            <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXIwYW1wem83NWNoamhubzY5cWlya3M1OG1tMGEwNWNyaXpnZnJ2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du2blShdOu5pe/giphy.gif" alt="GIF 1">
+            <img src="https://media1.tenor.com/m/NdqVyj0drmoAAAAd/jesus-mcride.gif" alt="death grips">
+            <img src="https://media1.tenor.com/m/FMmvFR928dIAAAAC/mtv-logo.gif" alt="mtv">
+            <img src="https://media1.tenor.com/m/iRNtCkXla7oAAAAC/cat-wiggle.gif" alt="cat shake head">
+            <img src="https://media1.tenor.com/m/47qpxBq_Tw0AAAAd/cat-cat-meme.gif" alt="GIF 2">
+        </div>
+    </div>
+
+</body>
+</html>
+
